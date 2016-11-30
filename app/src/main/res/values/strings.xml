@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">M D T</string>
+    <string name="open_nav_drawer">open</string>
+    <string name="close_nav_drawer">close</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8674148460817362/8635961135</string>
+    <string name="banner_ad_unit_id_card">ca-app-pub-8674148460817362/8077557930</string>
+    <string name="facebook_app_id">1222456904480954</string>
+    <string name="gradle">Gradle dependencies</string>
+    <string name="tool_desc">Create an xml file named toolbar.xml under res ⇒ layout and add <b> android.support.v7.widget.Toolbar </b> element. This create the toolbar with specific height and theming.</string>
+    <string name="tool_include">Open the layout file of your main activity <b>(activity_main.xml)</b> and add the toolbar using <b>include</b> tag.</string>
+    <string name="tool_title">open your <b>MainActivity.java</b> and do the below changes. \n > Extend the activity from <b>AppCompatActivity</b> \n > Enable the toolbar by calling <b>setSupportActionBar()</b> by passing the toolbar object.</string>
+    <string name="card_intro"><b>CardView</b> extends the <b>FrameLayout</b> class and lets you show information inside cards that have a consistent look across the platform. <b>CardView</b> widgets can have shadows and rounded corners.</string>
+    <string name="card_shadow">To create a card with a shadow, use the <b>card_view:cardElevation</b> attribute. CardView uses real elevation and dynamic shadows on Android 5.0 (API level 21) and above and falls back to a programmatic shadow implementation on earlier versions</string>
+    <string name="card_rad_xml">card_view:cardCornerRadius</string>
+    <string name="card_rad_java">CardView.setRadius();</string>
+    <string name="card_backg_xml">card_view:cardBackgroundColor</string>
+    <string name="recycle_intro">The RecyclerView widget is a more advanced and flexible version of ListView. This widget is a container for displaying large data sets that can be scrolled very efficiently by maintaining a limited number of views. Use the RecyclerView widget when you have data collections whose elements change at runtime based on user action or network events.</string>
+    <string name="recycle_desc">A <b>layout manager</b> positions item views inside a RecyclerView and determines when to reuse item views that are no longer visible to the user. To reuse (or recycle) a view, a layout manager may ask the adapter to replace the contents of the view with a different element from the dataset. Recycling views in this manner improves performance by avoiding the creation of unnecessary views or performing expensive <b>findViewById()</b> lookups.</string>
+    <string name="nav_intro">The navigation drawer can be an important focal point for identity and navigation within your app and consistency in the design here can make a considerable difference in how easy your app is to navigate, particularly for first time users. NavigationView makes this easier by providing the framework you need for the navigation drawer as well as the ability to inflate your navigation items through a menu resource.</string>
+    <string name="nav_desc">You’ll note two attributes for NavigationView: app:headerLayout controls the (optional) layout used for the header. app:menu is the menu resource inflated for the navigation items (which can also be updated at runtime). NavigationView takes care of the scrim protection of the status bar for you, ensuring that your NavigationView interacts with the status bar appropriately on API21+ devices.</string>
+    <string name="tinl_intro">  Even the humble EditText has room to improve in material design. While an EditText alone will hide the hint text after the first character is typed, you can now wrap it in a TextInputLayout, causing the hint text to become a floating label above the EditText, ensuring that users never lose context in what they are entering.</string>
+    <string name="fab_intro">A floating action button is a round button denoting a primary action on your interface. The Design library’s FloatingActionButton gives you a single consistent implementation, by default colored using the colorAccent from your theme.</string>
+    <string name="snack_intro">Providing lightweight, quick feedback about an operation is a perfect opportunity to use a snackbar. Snackbars are shown on the bottom of the screen and contain text with an optional single action. They automatically time out after the given time length by animating off the screen. In addition, users can swipe them away before the timeout.</string>
+    <string name="tab_intro">Switching between different views in your app via tabs is not a new concept to material design and they are equally at home as a top level navigation pattern or for organizing different groupings of content within your app (say, different genres of music).</string>
+    <string name="tab_intro_next">The Design library’s TabLayout implements both fixed tabs, where the view’s width is divided equally between all of the tabs, as well as scrollable tabs, where the tabs are not a uniform size and can scroll horizontally.</string>
+    <string name="color_value_primary">500</string>
+    <string name="color_value_primaryDark">700</string>
+    <string name="forgot_pass"><u> Forgot Password? </u></string>
+    <string name="cus_tab_intro">Custom Tabs makes it possible to seamlessly transition to web content while keeping the look and feel of your app.</string>
+</resources>

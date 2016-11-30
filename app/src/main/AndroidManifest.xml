@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.material.naveen.materialdesigntutorial.mdt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.SplashActivity"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.HomeActivity"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.basics.ThemeActivity"
+            android:label="Themes"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.basics.Theme_try"
+            android:label="Try it out"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.basics.ToolApp"
+            android:label="Toolbar/Appbar"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.basics.Card"
+            android:label="CardView"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.basics.Card_try"
+            android:label="Try it out"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.basics.Recycle"
+            android:label="RecyclerView"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.Navigation_View"
+            android:label="Navigation View"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.TextInputL"
+            android:label="TextInputLayout"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.FAB"
+            android:label="FAB"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.Snackbar"
+            android:label="SnackBar"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.TabL"
+            android:label="Tab Layout"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.CoordinateLayout"
+            android:label="Coordinate Layout"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.Collapsing"
+            android:label="CollapsingToolbar Layout"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.colors.Colors"
+            android:label="Colors"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.colors.Colors_red"
+            android:label="Red"
+            android:theme="@style/red" />
+        <activity
+            android:name=".activities.colors.Colors_pink"
+            android:label="Pink"
+            android:theme="@style/pink" />
+        <activity
+            android:name=".activities.colors.Colors_purple"
+            android:label="Purple"
+            android:theme="@style/purple" />
+        <activity
+            android:name=".activities.colors.Colors_deeppurple"
+            android:label="Deep Purple"
+            android:theme="@style/deeppurple" />
+        <activity
+            android:name=".activities.colors.Colors_indigo"
+            android:label="Indigo"
+            android:theme="@style/indigo" />
+        <activity
+            android:name=".activities.colors.Colors_blue"
+            android:label="Blue"
+            android:theme="@style/blue" />
+        <activity
+            android:name=".activities.colors.Colors_lightblue"
+            android:label="Light Blue"
+            android:theme="@style/lightblue" />
+        <activity
+            android:name=".activities.colors.Colors_cyan"
+            android:label="Cyan"
+            android:theme="@style/cyan" />
+        <activity
+            android:name=".activities.colors.Colors_teal"
+            android:label="Teal"
+            android:theme="@style/teal" />
+        <activity
+            android:name=".activities.colors.Colors_green"
+            android:label="Green"
+            android:theme="@style/green" />
+        <activity
+            android:name=".activities.colors.Colors_lightgreen"
+            android:label="Light Green"
+            android:theme="@style/lightgreen" />
+        <activity
+            android:name=".activities.colors.Colors_lime"
+            android:label="Lime"
+            android:theme="@style/lime" />
+        <activity
+            android:name=".activities.colors.Colors_yellow"
+            android:label="Yellow"
+            android:theme="@style/yellow" />
+        <activity
+            android:name=".activities.colors.Colors_amber"
+            android:label="Amber"
+            android:theme="@style/amber" />
+        <activity
+            android:name=".activities.colors.Colors_orange"
+            android:label="Orange"
+            android:theme="@style/orange" />
+        <activity
+            android:name=".activities.colors.Colors_deeporange"
+            android:label="Deep Orange"
+            android:theme="@style/deeporange" />
+        <activity
+            android:name=".activities.colors.Colors_brown"
+            android:label="Brown"
+            android:theme="@style/brown" />
+        <activity
+            android:name=".activities.colors.Colors_grey"
+            android:label="Grey"
+            android:theme="@style/grey" />
+        <activity
+            android:name=".activities.colors.Colors_bluegray"
+            android:label="Blue Grey"
+            android:theme="@style/bluegrey" />
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.About"
+            android:label="About"
+            android:screenOrientation="portrait"
+            android:theme="@style/home" />
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.Dependencies"
+            android:label="Dependencies"
+            android:theme="@style/home" />
+
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.VideoTutorial"
+            android:configChanges="orientation|screenSize"
+            android:label="Video Tutorial"
+            android:theme="@style/home" />
+
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.VideoPlayer"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activities.designsupport.BottomSheets"
+            android:label="Bottom Sheets"
+            android:screenOrientation="portrait"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.CustomChromeTabs"
+            android:label="Custom Tabs"
+            android:screenOrientation="portrait"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activities.designsupport.BottomNavigation"
+            android:label="Bottom Navigation View"
+            android:screenOrientation="portrait"
+            android:theme="@style/home" />
+        <activity
+            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.Suggestion"
+            android:label="Suggestion"
+            android:screenOrientation="portrait"
+            android:theme="@style/home" />
+    </application>
+
+</manifest>

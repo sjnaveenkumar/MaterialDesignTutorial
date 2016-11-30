@@ -1,0 +1,12 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="240dp"
+    android:background="@color/colorPrimaryHome">
+
+
+    <ImageView
+        android:id="@+id/img_drawer_header"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mdt1" />
+</android.support.design.widget.CoordinatorLayout>

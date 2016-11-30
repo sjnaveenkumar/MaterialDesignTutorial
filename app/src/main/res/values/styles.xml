@@ -1,0 +1,170 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+
+    </style>
+
+    <style name="splash" parent="AppTheme">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <style name="edittextTheme" parent="AppTheme">
+        <item name="colorControlNormal">@color/colorPrimaryDarkHome</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+
+    </style>
+
+
+    <style name="home" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryHome</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkHome</item>
+
+    </style>
+
+    <!--themes-->
+    <style name="red" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+
+    </style>
+
+    <style name="pink" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
+
+    </style>
+
+    <style name="purple" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+
+    </style>
+
+    <style name="deeppurple" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimarydeepPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkdeepPurple</item>
+
+    </style>
+
+    <style name="indigo" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+
+    </style>
+
+    <style name="blue" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+
+    </style>
+
+    <style name="lightblue" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimarylightBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarklightBlue</item>
+
+    </style>
+
+    <style name="cyan" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCyan</item>
+
+    </style>
+
+    <style name="teal" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTeal</item>
+
+    </style>
+
+    <style name="green" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+
+    </style>
+
+    <style name="lightgreen" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimarylightGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarklightGreen</item>
+
+    </style>
+
+    <style name="lime" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryLime</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLime</item>
+
+    </style>
+
+    <style name="yellow" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkYellow</item>
+
+    </style>
+
+    <style name="amber" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryAmber</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAmber</item>
+
+    </style>
+
+    <style name="orange" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOrange</item>
+
+    </style>
+
+    <style name="deeporange" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimarydeepOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkdeepOrange</item>
+
+    </style>
+
+    <style name="brown" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+
+    </style>
+
+    <style name="grey" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGrey</item>
+
+    </style>
+
+    <style name="bluegrey" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimaryblueGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkblueGrey</item>
+
+    </style>
+</resources>
