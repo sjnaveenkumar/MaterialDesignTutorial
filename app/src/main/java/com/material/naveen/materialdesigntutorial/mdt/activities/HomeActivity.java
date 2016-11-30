@@ -195,7 +195,6 @@ public class HomeActivity extends BaseActivity {
                         }
                         break;
                     case R.id.menu_material_icons:
-
                         String url = "https://design.google.com/icons/";
                         Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
