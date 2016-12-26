@@ -2,9 +2,6 @@
     <string name="app_name">M D T</string>
     <string name="open_nav_drawer">open</string>
     <string name="close_nav_drawer">close</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8674148460817362/8635961135</string>
-    <string name="banner_ad_unit_id_card">ca-app-pub-8674148460817362/8077557930</string>
-    <string name="facebook_app_id">1222456904480954</string>
     <string name="gradle">Gradle dependencies</string>
     <string name="tool_desc">Create an xml file named toolbar.xml under res ⇒ layout and add <b> android.support.v7.widget.Toolbar </b> element. This create the toolbar with specific height and theming.</string>
     <string name="tool_include">Open the layout file of your main activity <b>(activity_main.xml)</b> and add the toolbar using <b>include</b> tag.</string>

@@ -59,7 +59,7 @@ public class ThemeActivity extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.tryitout, menu);
+        inflater.inflate(R.menu.menu_tryitout, menu);
         return true;
 
     }
@@ -69,7 +69,7 @@ public class ThemeActivity extends BaseActivity {
 
         switch (item.getItemId()) {
             case R.id.try_it_out:
-                startActivity(new Intent(ThemeActivity.this, Theme_try.class));
+                startActivity(new Intent(ThemeActivity.this, ThemeTry.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

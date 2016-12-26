@@ -11,12 +11,12 @@ import android.view.View;
 
 import com.material.naveen.materialdesigntutorial.mdt.R;
 import com.material.naveen.materialdesigntutorial.mdt.base.BaseActivity;
-import com.material.naveen.materialdesigntutorial.mdt.fragment.Center_aligned_Fragment;
+import com.material.naveen.materialdesigntutorial.mdt.fragment.CenterAlignedFragment;
 import com.material.naveen.materialdesigntutorial.mdt.fragment.FixedFragment;
-import com.material.naveen.materialdesigntutorial.mdt.fragment.Full_Width_Fragment;
+import com.material.naveen.materialdesigntutorial.mdt.fragment.FullWidthFragment;
 import com.material.naveen.materialdesigntutorial.mdt.fragment.HomeFragment;
-import com.material.naveen.materialdesigntutorial.mdt.fragment.Icon_text_tab_fragment;
-import com.material.naveen.materialdesigntutorial.mdt.fragment.Scroll_tabs_Fragment;
+import com.material.naveen.materialdesigntutorial.mdt.fragment.IconTextTabFragment;
+import com.material.naveen.materialdesigntutorial.mdt.fragment.ScrollTabsFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,11 +59,11 @@ public class TabL extends BaseActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new HomeFragment(), "HOME");
         adapter.addFragment(new FixedFragment(), "Fixed Tabs");
-        adapter.addFragment(new Full_Width_Fragment(), "Full Width Tabs");
-        adapter.addFragment(new Center_aligned_Fragment(), "Center Aligned Tabs");
-        adapter.addFragment(new Scroll_tabs_Fragment(), "Scrollable Tabs");
-        adapter.addFragment(new Icon_text_tab_fragment(), "Tabs with Icons and Text");
-        adapter.addFragment(new Icon_tab_fragment(), "Tabs with only Icons");
+        adapter.addFragment(new FullWidthFragment(), "Full Width Tabs");
+        adapter.addFragment(new CenterAlignedFragment(), "Center Aligned Tabs");
+        adapter.addFragment(new ScrollTabsFragment(), "Scrollable Tabs");
+        adapter.addFragment(new IconTextTabFragment(), "Tabs with Icons and Text");
+        adapter.addFragment(new IconTabFragment(), "Tabs with only Icons");
 
         viewPager.setAdapter(adapter);
     }

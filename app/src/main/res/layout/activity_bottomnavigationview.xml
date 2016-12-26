@@ -180,7 +180,7 @@ The bar contents can be populated by specifying a menu resource file. Each menu 
                     app:itemBackground="@color/colorPrimary"
                     app:itemIconTint="@color/white"
                     app:itemTextColor="@color/white"
-                    app:menu="@menu/bottom_navigation_items" />
+                    app:menu="@menu/menu_bottom_navigation_items" />
 
             </LinearLayout>
 

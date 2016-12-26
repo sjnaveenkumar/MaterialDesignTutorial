@@ -10,7 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.material.naveen.materialdesigntutorial.mdt.R;
-import com.material.naveen.materialdesigntutorial.mdt.adapters.Color_Adapter;
+import com.material.naveen.materialdesigntutorial.mdt.adapters.ColorAdapter;
 import com.material.naveen.materialdesigntutorial.mdt.base.BaseActivity;
 import com.material.naveen.materialdesigntutorial.mdt.interfaces.RecyclerItemClickListener;
 
@@ -78,7 +78,7 @@ public class Colors extends BaseActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_colors);
         recyclerView.setLayoutManager(layoutManager);
 
-        Color_Adapter adapter = new Color_Adapter(Colors.this, color_name, color_codes);
+        ColorAdapter adapter = new ColorAdapter(Colors.this, color_name, color_codes);
         recyclerView.setAdapter(adapter);
         recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(Colors.this, new RecyclerItemClickListener.OnItemClickListener() {
             @Override
@@ -88,79 +88,79 @@ public class Colors extends BaseActivity {
                 switch (position) {
                     //19
                     case 0:
-                        startActivity(new Intent(Colors.this, Colors_red.class));
+                        startActivity(new Intent(Colors.this, ColorsRed.class));
 
                         break;
                     case 1:
-                        startActivity(new Intent(Colors.this, Colors_pink.class));
+                        startActivity(new Intent(Colors.this, ColorsPink.class));
 
                         break;
                     case 2:
-                        startActivity(new Intent(Colors.this, Colors_purple.class));
+                        startActivity(new Intent(Colors.this, ColorsPurple.class));
 
                         break;
                     case 3:
-                        startActivity(new Intent(Colors.this, Colors_deeppurple.class));
+                        startActivity(new Intent(Colors.this, ColorsDeepPurple.class));
 
                         break;
                     case 4:
-                        startActivity(new Intent(Colors.this, Colors_indigo.class));
+                        startActivity(new Intent(Colors.this, ColorsIndigo.class));
 
                         break;
                     case 5:
-                        startActivity(new Intent(Colors.this, Colors_blue.class));
+                        startActivity(new Intent(Colors.this, ColorsBlue.class));
 
                         break;
                     case 6:
-                        startActivity(new Intent(Colors.this, Colors_lightblue.class));
+                        startActivity(new Intent(Colors.this, ColorsLightBlue.class));
 
                         break;
                     case 7:
-                        startActivity(new Intent(Colors.this, Colors_cyan.class));
+                        startActivity(new Intent(Colors.this, ColorsCyan.class));
 
                         break;
                     case 8:
-                        startActivity(new Intent(Colors.this, Colors_teal.class));
+                        startActivity(new Intent(Colors.this, ColorsTeal.class));
 
                         break;
                     case 9:
-                        startActivity(new Intent(Colors.this, Colors_green.class));
+                        startActivity(new Intent(Colors.this, ColorsGreen.class));
 
                         break;
                     case 10:
-                        startActivity(new Intent(Colors.this, Colors_lightgreen.class));
+                        startActivity(new Intent(Colors.this, ColorsLightGreen.class));
 
                         break;
                     case 11:
-                        startActivity(new Intent(Colors.this, Colors_lime.class));
+                        startActivity(new Intent(Colors.this, ColorsLlime.class));
 
                         break;
                     case 12:
-                        startActivity(new Intent(Colors.this, Colors_yellow.class));
+                        startActivity(new Intent(Colors.this, ColorsYellow.class));
 
                         break;
                     case 13:
-                        startActivity(new Intent(Colors.this, Colors_amber.class));
+                        startActivity(new Intent(Colors.this, ColorsAmber.class));
 
                         break;
                     case 14:
-                        startActivity(new Intent(Colors.this, Colors_orange.class));
+                        startActivity(new Intent(Colors.this, ColorsOrange.class));
 
                         break;
                     case 15:
-                        startActivity(new Intent(Colors.this, Colors_deeporange.class));
+                        startActivity(new Intent(Colors.this, ColorsDeepOrange.class));
 
                         break;
                     case 16:
-                        startActivity(new Intent(Colors.this, Colors_brown.class));
+                        startActivity(new Intent(Colors.this, ColorsBrown.class));
 
                         break;
                     case 17:
-                        startActivity(new Intent(Colors.this, Colors_grey.class));
+                        startActivity(new Intent(Colors.this, ColorsGrey.class));
 
                         break;
                     case 18:
-                        startActivity(new Intent(Colors.this, Colors_bluegray.class));
+                        startActivity(new Intent(Colors.this, ColorsBlueGray.class));
 
                         break;
                 }
@@ -169,7 +169,5 @@ public class Colors extends BaseActivity {
             }
         }));
 
-        // RecyclerViewAdapter adapter = new RecyclerViewAdapter(MainActivity.this, rowListItem);
-        //recyclerView.setAdapter(adapter);
     }
 }

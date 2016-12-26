@@ -448,6 +448,6 @@ Shadows in the material environment are cast by these two light sources. In Andr
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/drawer_header"
-        app:menu="@menu/drawer_items" />
+        app:menu="@menu/menu_drawer_items" />
 
 </android.support.v4.widget.DrawerLayout>

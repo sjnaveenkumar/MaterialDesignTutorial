@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
@@ -33,7 +32,7 @@ import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.C
 import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.CoordinateLayout;
 import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.CustomChromeTabs;
 import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.FAB;
-import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.Navigation_View;
+import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.NavigationView;
 import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.Snackbar;
 import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.TabL;
 import com.material.naveen.materialdesigntutorial.mdt.activities.designsupport.TextInputL;
@@ -52,7 +51,7 @@ public class HomeActivity extends BaseActivity {
     AppBarLayout appBarLayout;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
-    private NavigationView mNavigationView;
+    private android.support.design.widget.NavigationView mNavigationView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -70,16 +69,16 @@ public class HomeActivity extends BaseActivity {
         collapsingToolbarLayout.setExpandedTitleColor(Color.BLACK);
         collapsingToolbarLayout.setCollapsedTitleTextColor(Color.WHITE);
         appBarLayout = (AppBarLayout) findViewById(R.id.app_bar_layout);
-        Glide.with(getApplicationContext()).load(R.drawable.materialdesignintro).into((ImageView) findViewById(R.id.img_collapse));
-        Glide.with(getApplicationContext()).load(R.drawable.materialdesigngoalslanguage).into((ImageView) findViewById(R.id.img_goal_one));
-        Glide.with(getApplicationContext()).load(R.drawable.materialdesigngoalssystem).into((ImageView) findViewById(R.id.img_goal_two));
-        Glide.with(getApplicationContext()).load(R.drawable.one).into((ImageView) findViewById(R.id.img_one));
-        Glide.with(getApplicationContext()).load(R.drawable.two).into((ImageView) findViewById(R.id.img_two));
-        Glide.with(getApplicationContext()).load(R.drawable.three).into((ImageView) findViewById(R.id.img_three));
-        Glide.with(getApplicationContext()).load(R.drawable.whatismaterialenvironment3d).into((ImageView) findViewById(R.id.img_3d_goal));
-        Glide.with(getApplicationContext()).load(R.drawable.s1).into((ImageView) findViewById(R.id.img_las_one));
-        Glide.with(getApplicationContext()).load(R.drawable.s2).into((ImageView) findViewById(R.id.img_las_two));
-        Glide.with(getApplicationContext()).load(R.drawable.s3).into((ImageView) findViewById(R.id.img_las_three));
+        loadImages(R.drawable.materialdesignintro, R.id.img_collapse);
+        loadImages(R.drawable.materialdesigngoalslanguage, R.id.img_goal_one);
+        loadImages(R.drawable.materialdesigngoalssystem, R.id.img_goal_two);
+        loadImages(R.drawable.one, R.id.img_one);
+        loadImages(R.drawable.two, R.id.img_two);
+        loadImages(R.drawable.three, R.id.img_three);
+        loadImages(R.drawable.whatismaterialenvironment3d, R.id.img_3d_goal);
+        loadImages(R.drawable.s1, R.id.img_las_one);
+        loadImages(R.drawable.s2, R.id.img_las_two);
+        loadImages(R.drawable.s3, R.id.img_las_three);
         appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
             @Override
             public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
@@ -97,10 +96,17 @@ public class HomeActivity extends BaseActivity {
         });
     }
 
+    private void loadImages(int drawable, int resId) {
+        Glide.with(getApplicationContext()).load(drawable).into((ImageView) findViewById(resId));
+    }
+
+    private void intentToClass(Class object) {
+        startActivity(new Intent(HomeActivity.this, object));
+    }
 
     private void initNavigationView() {
 
-        mNavigationView = (NavigationView) findViewById(R.id.navigation_drawer);
+        mNavigationView = (android.support.design.widget.NavigationView) findViewById(R.id.navigation_drawer);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open_nav_drawer, R.string.close_nav_drawer) {
@@ -124,7 +130,7 @@ public class HomeActivity extends BaseActivity {
         });
         mDrawerToggle.setDrawerIndicatorEnabled(true);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
-        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+        mNavigationView.setNavigationItemSelectedListener(new android.support.design.widget.NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
 
@@ -132,58 +138,54 @@ public class HomeActivity extends BaseActivity {
 
 
                     case R.id.menu_themes:
-                        startActivity(new Intent(HomeActivity.this, ThemeActivity.class));
+                        intentToClass(ThemeActivity.class);
                         break;
                     case R.id.menu_appbar:
-                        startActivity(new Intent(HomeActivity.this, ToolApp.class));
+                        intentToClass(ToolApp.class);
                         break;
                     case R.id.menu_cardview:
-                        startActivity(new Intent(HomeActivity.this, Card.class));
+                        intentToClass(Card.class);
                         break;
                     case R.id.menu_recyclerview:
-                        startActivity(new Intent(HomeActivity.this, Recycle.class));
+                        intentToClass(Recycle.class);
                         break;
                     case R.id.menu_nav_view:
-                        startActivity(new Intent(HomeActivity.this, Navigation_View.class));
+                        intentToClass(NavigationView.class);
                         break;
                     case R.id.menu_textinputlayout:
-                        startActivity(new Intent(HomeActivity.this, TextInputL.class));
+                        intentToClass(TextInputL.class);
                         break;
                     case R.id.menu_fab:
-                        startActivity(new Intent(HomeActivity.this, FAB.class));
+                        intentToClass(FAB.class);
                         break;
                     case R.id.menu_snackbar:
-                        startActivity(new Intent(HomeActivity.this, Snackbar.class));
+                        intentToClass(Snackbar.class);
                         break;
                     case R.id.menu_tabs:
-                        startActivity(new Intent(HomeActivity.this, TabL.class
-                        ));
+                        intentToClass(TabL.class);
                         break;
                     case R.id.menu_cordinate:
-                        startActivity(new Intent(HomeActivity.this, CoordinateLayout.class));
+                        intentToClass(CoordinateLayout.class);
                         break;
                     case R.id.menu_collapse:
-                        startActivity(new Intent(HomeActivity.this, Collapsing.class));
+                        intentToClass(Collapsing.class);
                         break;
                     case R.id.menu_color:
-                        startActivity(new Intent(HomeActivity.this, Colors.class));
+                        intentToClass(Colors.class);
                         break;
                     case R.id.menu_about:
-                        startActivity(new Intent(HomeActivity.this, About.class));
+                        intentToClass(About.class);
                         break;
                     case R.id.menu_dependencies:
-                        startActivity(new Intent(HomeActivity.this, Dependencies.class));
+                        intentToClass(Dependencies.class);
                         break;
                     case R.id.menu_bottom_navigation:
-                        startActivity(new Intent(HomeActivity.this, BottomNavigation.class));
+                        intentToClass(BottomNavigation.class);
                         break;
                     case R.id.menu_ratethisapp:
                         Uri uri = Uri.parse("market://details?id=" + getPackageName());
                         Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
-                        // To count with Play market backstack, After pressing back button,
-                        // to taken back to our application, we need to add following flags to intent.
                         goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
-                                Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET |
                                 Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                         try {
                             startActivity(goToMarket);
@@ -198,19 +200,14 @@ public class HomeActivity extends BaseActivity {
                         i.setData(Uri.parse(url));
                         startActivity(i);
                         break;
-                    case R.id.menu_videotutorials:
-
-                        startActivity(new Intent(HomeActivity.this, VideoTutorial.class));
-
-                        break;
                     case R.id.menu_bottom_sheet:
-                        startActivity(new Intent(HomeActivity.this, BottomSheets.class));
+                        intentToClass(BottomSheets.class);
                         break;
                     case R.id.menu_custom_tabs:
-                        startActivity(new Intent(HomeActivity.this, CustomChromeTabs.class));
+                        intentToClass(CustomChromeTabs.class);
                         break;
                     case R.id.menu_suggestion:
-                        startActivity(new Intent(HomeActivity.this, Suggestion.class));
+                        intentToClass(Suggestion.class);
                         break;
 
                 }
@@ -225,7 +222,7 @@ public class HomeActivity extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.extra, menu);
+        inflater.inflate(R.menu.menu_extra, menu);
         return true;
 
     }

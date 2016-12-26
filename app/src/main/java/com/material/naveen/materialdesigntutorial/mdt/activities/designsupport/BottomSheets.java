@@ -36,7 +36,7 @@ public class BottomSheets extends BaseActivity {
                 finish();
             }
         });
-        Glide.with(BottomSheets.this).load(R.drawable.bottomsheet).into((ImageView) findViewById(R.id.bottom_img));
+        Glide.with(BottomSheets.this).load(R.drawable.image2).into((ImageView) findViewById(R.id.bottom_img));
         xml_code = (TextView) findViewById(R.id.bottom_xml_code);
         java_code = (TextView) findViewById(R.id.bottom_java_code);
         last = (TextView) findViewById(R.id.bottom_last);

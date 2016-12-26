@@ -1,10 +1,7 @@
 package com.material.naveen.materialdesigntutorial.mdt.base;
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.DialogInterface;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -118,12 +115,6 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
-    //Network validation
-    public Boolean isNetworkAvailable() {
-        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
-        return activeNetworkInfo != null && activeNetworkInfo.isConnectedOrConnecting();
-    }
 
     //displaying activity_snackbar
     public void snack(String message) {

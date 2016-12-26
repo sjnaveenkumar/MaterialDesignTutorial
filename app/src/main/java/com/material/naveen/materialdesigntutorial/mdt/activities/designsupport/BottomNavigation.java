@@ -73,7 +73,7 @@ public class BottomNavigation extends BaseActivity {
         tXml = (TextView) findViewById(R.id.bottom_xml_code);
         tCode = (TextView) findViewById(R.id.bottom_java_code);
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-        Glide.with(this).load(R.drawable.bottomnavigation).into(imageView);
+        Glide.with(this).load(R.drawable.image1).into(imageView);
         tXml.setText(xmlCode);
         tCode.setText(javaCode);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

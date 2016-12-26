@@ -31,7 +31,7 @@
             android:label="Themes"
             android:theme="@style/home" />
         <activity
-            android:name=".activities.basics.Theme_try"
+            android:name=".activities.basics.ThemeTry"
             android:label="Try it out"
             android:theme="@style/home" />
         <activity
@@ -43,7 +43,7 @@
             android:label="CardView"
             android:theme="@style/home" />
         <activity
-            android:name=".activities.basics.Card_try"
+            android:name=".activities.basics.CardTry"
             android:label="Try it out"
             android:theme="@style/home" />
         <activity
@@ -51,7 +51,7 @@
             android:label="RecyclerView"
             android:theme="@style/home" />
         <activity
-            android:name=".activities.designsupport.Navigation_View"
+            android:name=".activities.designsupport.NavigationView"
             android:label="Navigation View"
             android:theme="@style/home" />
         <activity
@@ -83,79 +83,79 @@
             android:label="Colors"
             android:theme="@style/home" />
         <activity
-            android:name=".activities.colors.Colors_red"
+            android:name=".activities.colors.ColorsRed"
             android:label="Red"
             android:theme="@style/red" />
         <activity
-            android:name=".activities.colors.Colors_pink"
+            android:name=".activities.colors.ColorsPink"
             android:label="Pink"
             android:theme="@style/pink" />
         <activity
-            android:name=".activities.colors.Colors_purple"
+            android:name=".activities.colors.ColorsPurple"
             android:label="Purple"
             android:theme="@style/purple" />
         <activity
-            android:name=".activities.colors.Colors_deeppurple"
+            android:name=".activities.colors.ColorsDeepPurple"
             android:label="Deep Purple"
             android:theme="@style/deeppurple" />
         <activity
-            android:name=".activities.colors.Colors_indigo"
+            android:name=".activities.colors.ColorsIndigo"
             android:label="Indigo"
             android:theme="@style/indigo" />
         <activity
-            android:name=".activities.colors.Colors_blue"
+            android:name=".activities.colors.ColorsBlue"
             android:label="Blue"
             android:theme="@style/blue" />
         <activity
-            android:name=".activities.colors.Colors_lightblue"
+            android:name=".activities.colors.ColorsLightBlue"
             android:label="Light Blue"
             android:theme="@style/lightblue" />
         <activity
-            android:name=".activities.colors.Colors_cyan"
+            android:name=".activities.colors.ColorsCyan"
             android:label="Cyan"
             android:theme="@style/cyan" />
         <activity
-            android:name=".activities.colors.Colors_teal"
+            android:name=".activities.colors.ColorsTeal"
             android:label="Teal"
             android:theme="@style/teal" />
         <activity
-            android:name=".activities.colors.Colors_green"
+            android:name=".activities.colors.ColorsGreen"
             android:label="Green"
             android:theme="@style/green" />
         <activity
-            android:name=".activities.colors.Colors_lightgreen"
+            android:name=".activities.colors.ColorsLightGreen"
             android:label="Light Green"
             android:theme="@style/lightgreen" />
         <activity
-            android:name=".activities.colors.Colors_lime"
+            android:name=".activities.colors.ColorsLlime"
             android:label="Lime"
             android:theme="@style/lime" />
         <activity
-            android:name=".activities.colors.Colors_yellow"
+            android:name=".activities.colors.ColorsYellow"
             android:label="Yellow"
             android:theme="@style/yellow" />
         <activity
-            android:name=".activities.colors.Colors_amber"
+            android:name=".activities.colors.ColorsAmber"
             android:label="Amber"
             android:theme="@style/amber" />
         <activity
-            android:name=".activities.colors.Colors_orange"
+            android:name=".activities.colors.ColorsOrange"
             android:label="Orange"
             android:theme="@style/orange" />
         <activity
-            android:name=".activities.colors.Colors_deeporange"
+            android:name=".activities.colors.ColorsDeepOrange"
             android:label="Deep Orange"
             android:theme="@style/deeporange" />
         <activity
-            android:name=".activities.colors.Colors_brown"
+            android:name=".activities.colors.ColorsBrown"
             android:label="Brown"
             android:theme="@style/brown" />
         <activity
-            android:name=".activities.colors.Colors_grey"
+            android:name=".activities.colors.ColorsGrey"
             android:label="Grey"
             android:theme="@style/grey" />
         <activity
-            android:name=".activities.colors.Colors_bluegray"
+            android:name=".activities.colors.ColorsBlueGray"
             android:label="Blue Grey"
             android:theme="@style/bluegrey" />
         <activity
@@ -166,12 +166,6 @@
         <activity
             android:name="com.material.naveen.materialdesigntutorial.mdt.activities.Dependencies"
             android:label="Dependencies"
-            android:theme="@style/home" />
-
-        <activity
-            android:name="com.material.naveen.materialdesigntutorial.mdt.activities.VideoTutorial"
-            android:configChanges="orientation|screenSize"
-            android:label="Video Tutorial"
             android:theme="@style/home" />
 
         <activity
