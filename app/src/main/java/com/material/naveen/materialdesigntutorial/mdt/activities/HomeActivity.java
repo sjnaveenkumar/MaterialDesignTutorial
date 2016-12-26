@@ -60,8 +60,6 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_homelayout);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setStatusBarColor(Color.TRANSPARENT);
-        } else {
-
         }
         toolbar = (Toolbar) findViewById(R.id.appbar);
         setSupportActionBar(toolbar);
