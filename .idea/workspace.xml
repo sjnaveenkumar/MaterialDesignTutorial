@@ -7,48 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c591f11-48b3-4453-9fb2-194cd574b0d6" name="Default" comment="initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/VideoTutorial.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/adapters/Video_list_adapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/Card_try.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/CardTry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/Theme_try.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/ThemeTry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_amber.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsAmber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_blue.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsBlue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_bluegray.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsBlueGray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_brown.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsBrown.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_cyan.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsCyan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_deeporange.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsDeepOrange.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_deeppurple.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsDeepPurple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_green.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsGreen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_grey.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsGrey.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_indigo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsIndigo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_lightblue.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsLightBlue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_lightgreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsLightGreen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_lime.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsLlime.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_orange.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsOrange.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_pink.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsPink.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_purple.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsPurple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_red.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsRed.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_teal.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsTeal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors_yellow.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/ColorsYellow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/Icon_tab_fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/IconTabFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/Navigation_View.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/NavigationView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/adapters/Color_Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/adapters/ColorAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/adapters/Color_pallet_Adapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/adapters/ColorPalletAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/Center_aligned_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/CenterAlignedFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/Full_Width_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/FullWidthFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/Icon_text_tab_fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/IconTextTabFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/Scroll_tabs_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/fragment/ScrollTabsFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bottomnavigation.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/Image1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bottomsheet.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/Image2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/center_tab.PNG" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/Image3.PNG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drawer.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/image4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_items.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_bottom_navigation_items.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/menu/drawer_items.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_drawer_items.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/menu/extra.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_extra.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/menu/tryitout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_tryitout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -57,19 +15,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/HomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/Card.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/ThemeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/basics/ThemeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/colors/Colors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/BottomNavigation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/BottomNavigation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/BottomSheets.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/BottomSheets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/TabL.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/activities/designsupport/TabL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/base/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/material/naveen/materialdesigntutorial/mdt/base/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bottomnavigationview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bottomnavigationview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_homelayout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_homelayout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/navview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/navview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="MaterialDesignTutorial-Public.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,11 +52,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -1914,7 +1872,24 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialDesignTutorial-Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialDesignTutorial-Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialDesignTutorial-Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -1934,6 +1909,42 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="MaterialDesignTutorial-Public" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialDesignTutorial-Public" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialDesignTutorial-Public" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2314,12 +2325,19 @@
       <option name="project" value="LOCAL" />
       <updated>1482768121029</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1482771022182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1482771022182</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5056657" order="3" side_tool="true" content_ui="tabs" />
@@ -2338,11 +2356,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.49433428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.49433428" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2371,7 +2389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_drawer_items.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2386,17 +2403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -2741,6 +2747,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/image1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
           <folding />
         </state>
       </provider>
